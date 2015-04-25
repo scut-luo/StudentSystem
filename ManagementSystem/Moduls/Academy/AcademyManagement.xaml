@@ -1,0 +1,49 @@
+﻿<UserControl x:Class="ManagementSystem.AcademyManagement"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="386" d:DesignWidth="462">
+    <DockPanel LastChildFill="True">
+        <ToolBar Name="Tools" Grid.Row="0" DockPanel.Dock="Top">
+            <Button Click="AddAcademy_Click">
+                <Image Source="/ManagementSystem;component/Resources/Images/添加.BMP" HorizontalAlignment="Center" Width="52" Height="22" Opacity="1" />
+            </Button>
+            <Button>
+                <Image Source="/ManagementSystem;component/Resources/Images/修改.BMP" HorizontalAlignment="Center" Width="52" Height="22" />
+            </Button>
+            <Button>
+                <Image Source="/ManagementSystem;component/Resources/Images/删除.BMP" HorizontalAlignment="Center" Width="52" Height="22" />
+            </Button>
+        </ToolBar>
+        <GroupBox Header="学院信息列表" Margin="10">
+            <ListView Margin="5" Name="LV_Academy">
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="{x:Type ListViewItem}">
+                        <Setter Property="HorizontalContentAlignment" Value="Stretch"></Setter>
+                    </Style>
+                </ListView.ItemContainerStyle>
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="学院号" Width="80">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Width="Auto" TextAlignment="Center" Text="{Binding Anum}" />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="学院名" Width="100">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Width="Auto" TextAlignment="Center" Text="{Binding Aname}" />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+
+        </GroupBox>
+    </DockPanel>
+</UserControl>

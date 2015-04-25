@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{38DC7CBD-5167-4448-9942-171C6413F510}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ManagementSystem</RootNamespace>
+    <AssemblyName>ManagementSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="About.xaml.cs">
+      <DependentUpon>About.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ConvertFunction.cs" />
+    <Compile Include="Moduls\Course\CourseInfoUpdate.xaml.cs">
+      <DependentUpon>CourseInfoUpdate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Moduls\Academy\AcademyInfoUpdate.xaml.cs">
+      <DependentUpon>AcademyInfoUpdate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Moduls\Course\CourseInfoManagement.xaml.cs">
+      <DependentUpon>CourseInfoManagement.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Moduls\Academy\AcademyManagement.xaml.cs">
+      <DependentUpon>AcademyManagement.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Converter\BoolStringConverter.cs" />
+    <Compile Include="Converter\SexConverter.cs" />
+    <Compile Include="Moduls\Course\CourseManage.xaml.cs">
+      <DependentUpon>CourseManage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Moduls\SelectedCourse\CourseListWindow.xaml.cs">
+      <DependentUpon>CourseListWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Moduls\SysManage\SystemUserManagement.xaml.cs">
+      <DependentUpon>SystemUserManagement.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Moduls\SysManage\SystemUserAdd.xaml.cs">
+      <DependentUpon>SystemUserAdd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Moduls\SelectedCourse\SelectedCourse.xaml.cs">
+      <DependentUpon>SelectedCourse.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Moduls\TeachCourse\TCCourseListWindow.xaml.cs">
+      <DependentUpon>TCCourseListWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Moduls\TeachCourse\TeachCourseManagement.xaml.cs">
+      <DependentUpon>TeachCourseManagement.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Moduls\TeachCourse\TeachCourseUpdate.xaml.cs">
+      <DependentUpon>TeachCourseUpdate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Moduls\Score\StudentScoreManagement.xaml.cs">
+      <DependentUpon>StudentScoreManagement.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Moduls\TeachCourse\TeachCourseInfo.xaml.cs">
+      <DependentUpon>TeachCourseInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Moduls\Teacher\TeacherInfoManagement.xaml.cs">
+      <DependentUpon>TeacherInfoManagement.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Moduls\Score\StudentScoreInfo.xaml.cs">
+      <DependentUpon>StudentScoreInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Moduls\Student\StudentInfoMangement.xaml.cs">
+      <DependentUpon>StudentInfoMangement.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Moduls\Student\StudentInfoAdd.xaml.cs">
+      <DependentUpon>StudentInfoAdd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Moduls\Teacher\TeacherInfoAdd.xaml.cs">
+      <DependentUpon>TeacherInfoAdd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Moduls\Teacher\TeacherInfo.xaml.cs">
+      <DependentUpon>TeacherInfo.xaml</DependentUpon>
+    </Compile>
+    <Page Include="About.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Moduls\Course\CourseInfoUpdate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Moduls\Academy\AcademyInfoUpdate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Moduls\Course\CourseInfoManagement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Moduls\Academy\AcademyManagement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Login.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Converter\BinaryImageConverter.cs" />
+    <Compile Include="ConnectionInfo.cs" />
+    <Compile Include="Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="MainFrame.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Moduls\Course\CourseManage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Moduls\SelectedCourse\CourseListWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Moduls\Student\StudentInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Moduls\SysManage\SystemUserManagement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Moduls\SysManage\SystemUserAdd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Moduls\SelectedCourse\SelectedCourse.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Moduls\TeachCourse\TCCourseListWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Moduls\TeachCourse\TeachCourseManagement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Moduls\TeachCourse\TeachCourseUpdate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Moduls\Score\StudentScoreManagement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Moduls\TeachCourse\TeachCourseInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Moduls\Teacher\TeacherInfoManagement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Moduls\Score\StudentScoreInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Moduls\Student\StudentInfoMangement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Moduls\Student\StudentInfoAdd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Moduls\Teacher\TeacherInfoAdd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Moduls\Teacher\TeacherInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainFrame.xaml.cs">
+      <DependentUpon>MainFrame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Moduls\Student\StudentInfo.xaml.cs">
+      <DependentUpon>StudentInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DatabaseControlLib\DatabaseControlLib.csproj">
+      <Project>{7BAB33BD-3E7F-4A0C-8242-30F0F9B5A7B2}</Project>
+      <Name>DatabaseControlLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ResourcesLib\ResourcesLib.csproj">
+      <Project>{089EB3CB-37D5-4DB9-81E0-8BF69CD297EF}</Project>
+      <Name>ResourcesLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Images\UI\ModulDetailImage\" />
+    <Folder Include="Resources\Images\UI\ModulImage\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\Login_64.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\修改.BMP" />
+    <Resource Include="Resources\Images\删除.BMP" />
+    <Resource Include="Resources\Images\权限.BMP" />
+    <Resource Include="Resources\Images\添加.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\保存.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\搜索_24.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\Delete_16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\New_16.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

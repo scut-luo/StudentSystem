@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DatabaseControlLib.AcademyAdapter" Collapsed="true">
+    <Position X="2.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAEAQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Adapter\AcademyAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseControlLib.AdapterFactory" Collapsed="true">
+    <Position X="4.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Adapter\AdapterFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseControlLib.CommonAdapter" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAEAEEAQAAAAAAAAAAAAAQAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Adapter\CommonAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseControlLib.CourseAdapter" Collapsed="true">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAgAAAEAAAAAAAAAAAAAAAQAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Adapter\CourseAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseControlLib.SelectedCourseAdapter" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Adapter\SelectedCourseAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseControlLib.StudentAdapter" Collapsed="true">
+    <Position X="1" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAACAAAEAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Adapter\StudentAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseControlLib.SystemUserAdapter" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAEAAAAAAAAAAAABAAAAAAAAAAAgAIAAAAAA=</HashCode>
+      <FileName>Adapter\SystemUserAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseControlLib.TeachCourseAdapter" Collapsed="true">
+    <Position X="1" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Adapter\TeachCourseAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseControlLib.TeacherAdapter" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgAAAAAAEAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Adapter\TeacherAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseControlLib.UserAdapter" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Adapter\UserAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseControlLib.DataSetHelper" Collapsed="true">
+    <Position X="1" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAACAAgAAAAAAQgCAIAAAAA=</HashCode>
+      <FileName>DataSetHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseControlLib.FieldInfo" Collapsed="true">
+    <Position X="3" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAACAAAAAAAAAAAACAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>DataSetHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseControlLib.DBase" Collapsed="true">
+    <Position X="1" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAABAABAAAAAgQQAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>DBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseControlLib.SQLServerDatabase" Collapsed="true">
+    <Position X="1" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="DatabaseControlLib.DBase" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.875" Y="4.059" />
+        <Point X="1.875" Y="4.421" />
+        <Point X="1.875" Y="4.421" />
+        <Point X="1.875" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLServerDatabase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseControlLib.Academy" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAEEAAA=</HashCode>
+      <FileName>Table\Academy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseControlLib.Course" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAQACAAAAAAAAAAAAAgAAQAgAAAAEAAAAAAAEEAAA=</HashCode>
+      <FileName>Table\Course.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseControlLib.SelectedCourse" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAQACAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Table\SelectedCourse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseControlLib.Student" Collapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAACAAAAFAAAAAEAAgA=</HashCode>
+      <FileName>Table\Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseControlLib.SystemUser" Collapsed="true">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Table\SystemUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseControlLib.TeachCourse" Collapsed="true">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Table\TeachCourse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseControlLib.Teacher" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Table\Teacher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseControlLib.User" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAABAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Table\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei" Size="9" />
+</ClassDiagram>

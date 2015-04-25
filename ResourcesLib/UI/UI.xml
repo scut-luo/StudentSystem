@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<UI>
+
+  <Modul>
+    <ModulNum>1</ModulNum>
+    <ModulName>学生信息管理</ModulName>
+  </Modul>
+  <Modul>
+    <ModulNum>2</ModulNum>
+    <ModulName>教师信息管理</ModulName>
+  </Modul>
+  <Modul>
+    <ModulNum>3</ModulNum>
+    <ModulName>成绩管理</ModulName>
+  </Modul>
+  <Modul>
+    <ModulNum>4</ModulNum>
+    <ModulName>课程管理</ModulName>
+  </Modul>
+  <Modul>
+    <ModulNum>5</ModulNum>
+    <ModulName>教师授课管理</ModulName>
+  </Modul>
+  <Modul>
+    <ModulNum>6</ModulNum>
+    <ModulName>学院管理</ModulName>
+  </Modul>
+  <Modul>
+    <ModulNum>7</ModulNum>
+    <ModulName>系统管理</ModulName>
+  </Modul>
+
+  <!-- 学生模块 -->
+  <ModulDetail>
+    <DetailNum>1</DetailNum>
+    <ModulNum>1</ModulNum>
+    <ShowImage>StudentInfo.png</ShowImage>
+    <DetailName>学生个人信息</DetailName>
+    <UriPath>StudentInfo.xaml</UriPath>
+  </ModulDetail>
+  <ModulDetail>
+    <DetailNum>2</DetailNum>
+    <ModulNum>1</ModulNum>
+    <ShowImage>StudentInfoSearch.png</ShowImage>
+    <DetailName>学生个人信息查询</DetailName>
+    <UriPath>StudentInfoSearch.xaml</UriPath>
+  </ModulDetail>
+  <ModulDetail>
+    <DetailNum>3</DetailNum>
+    <ModulNum>1</ModulNum>
+    <ShowImage>StudentInfoManagement.png</ShowImage>
+    <DetailName>学生个人信息管理</DetailName>
+    <UriPath>StudentInfoMangement.xaml</UriPath>
+  </ModulDetail>
+  
+  <!-- 教师模块 -->
+  <ModulDetail>
+    <DetailNum>1</DetailNum>
+    <ModulNum>2</ModulNum>
+    <ShowImage>TeacherInfo.png</ShowImage>
+    <DetailName>教师个人信息</DetailName>
+    <UriPath>TeacherInfo.xaml</UriPath>
+  </ModulDetail>
+  <ModulDetail>
+    <DetailNum>2</DetailNum>
+    <ModulNum>2</ModulNum>
+    <ShowImage>TeacherInfoManagement.png</ShowImage>
+    <DetailName>教师个人信息管理</DetailName>
+    <UriPath>TeacherInfoManagement.xaml</UriPath>
+  </ModulDetail>
+
+  <!-- 学生成绩模块 -->
+  <ModulDetail>
+    <DetailNum>1</DetailNum>
+    <ModulNum>3</ModulNum>
+    <ShowImage>StudentScoreInfo.png</ShowImage>
+    <DetailName>学生成绩信息</DetailName>
+    <UriPath>StudentScoreInfo.xaml</UriPath>
+  </ModulDetail>
+  <ModulDetail>
+    <DetailNum>2</DetailNum>
+    <ModulNum>3</ModulNum>
+    <ShowImage>StudentScoreManagement.png</ShowImage>
+    <DetailName>学生成绩信息管理</DetailName>
+    <UriPath>StudentScoreManagement.xaml</UriPath>
+  </ModulDetail>
+
+  <!-- 学生选课模块 -->
+  <ModulDetail>
+    <DetailNum>1</DetailNum>
+    <ModulNum>4</ModulNum>
+    <ShowImage>SelectedCourse.png</ShowImage>
+    <DetailName>学生选课</DetailName>
+    <UriPath>SelectedCourse.xaml</UriPath>
+  </ModulDetail>
+  <ModulDetail>
+    <DetailNum>2</DetailNum>
+    <ModulNum>4</ModulNum>
+    <ShowImage>CourseInfoManagement.png</ShowImage>
+    <DetailName>课程信息管理</DetailName>
+    <UriPath>CourseInfoManagement.xaml</UriPath>
+  </ModulDetail>  
+
+  <!-- 授课管理模块 -->
+  <ModulDetail>
+    <DetailNum>1</DetailNum>
+    <ModulNum>5</ModulNum>
+    <ShowImage>TeachCourseInfo.png</ShowImage>
+    <DetailName>教师授课信息</DetailName>
+    <UriPath>TeachCourseInfo.xaml</UriPath>
+  </ModulDetail>
+  <ModulDetail>
+    <DetailNum>2</DetailNum>
+    <ModulNum>5</ModulNum>
+    <ShowImage>TeachCourseManagement.png</ShowImage>
+    <DetailName>教师授课信息管理</DetailName>
+    <UriPath>TeachCourseManagement.xaml</UriPath>
+  </ModulDetail>
+
+  <!-- 学院管理 -->
+  <ModulDetail>
+    <DetailNum>1</DetailNum>
+    <ModulNum>6</ModulNum>
+    <ShowImage>AcademyManagement.png</ShowImage>
+    <DetailName>学院信息管理</DetailName>
+    <UriPath>AcademyManagement.xaml</UriPath>
+  </ModulDetail>
+
+  <!-- 系统管理模块 -->
+  <ModulDetail>
+    <DetailNum>1</DetailNum>
+    <ModulNum>7</ModulNum>
+    <ShowImage>SystemUserManagement.png</ShowImage>
+    <DetailName>用户管理</DetailName>
+    <UriPath>SystemUserManagement.xaml</UriPath>
+  </ModulDetail>
+
+  <!-- 学生用户 -->
+  <UserTypeModul>
+    <UserType>Student</UserType>
+    <ModulNum>1</ModulNum>
+    <DetailNum>1</DetailNum>
+  </UserTypeModul>
+  <UserTypeModul>
+    <UserType>Student</UserType>
+    <ModulNum>3</ModulNum>
+    <DetailNum>1</DetailNum>
+  </UserTypeModul>
+  <UserTypeModul>
+    <UserType>Student</UserType>
+    <ModulNum>4</ModulNum>
+    <DetailNum>1</DetailNum>
+  </UserTypeModul>
+    
+  <!-- 教师用户 -->
+  <UserTypeModul>
+    <UserType>Teacher</UserType>
+    <ModulNum>2</ModulNum>
+    <DetailNum>1</DetailNum>
+  </UserTypeModul>
+  <UserTypeModul>
+    <UserType>Teacher</UserType>
+    <ModulNum>3</ModulNum>
+    <DetailNum>2</DetailNum>
+  </UserTypeModul>
+  <UserTypeModul>
+    <UserType>Teacher</UserType>
+    <ModulNum>5</ModulNum>
+    <DetailNum>1</DetailNum>
+  </UserTypeModul>
+
+  <!-- 系统管理员 -->
+  <UserTypeModul>
+    <UserType>Administrator</UserType>
+    <ModulNum>1</ModulNum>
+    <DetailNum>3</DetailNum>
+  </UserTypeModul>
+  <UserTypeModul>
+    <UserType>Administrator</UserType>
+    <ModulNum>2</ModulNum>
+    <DetailNum>2</DetailNum>
+  </UserTypeModul>
+  <UserTypeModul>
+    <UserType>Administrator</UserType>
+    <ModulNum>4</ModulNum>
+    <DetailNum>2</DetailNum>
+  </UserTypeModul>
+  <UserTypeModul>
+    <UserType>Administrator</UserType>
+    <ModulNum>5</ModulNum>
+    <DetailNum>2</DetailNum>
+  </UserTypeModul>
+  <UserTypeModul>
+    <UserType>Administrator</UserType>
+    <ModulNum>6</ModulNum>
+    <DetailNum>1</DetailNum>
+  </UserTypeModul>
+  <UserTypeModul>
+    <UserType>Administrator</UserType>
+    <ModulNum>7</ModulNum>
+    <DetailNum>1</DetailNum>
+  </UserTypeModul>
+</UI>

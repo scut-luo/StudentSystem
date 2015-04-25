@@ -1,0 +1,14 @@
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\bin\Debug\ResourcesLib.dll
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\bin\Debug\ResourcesLib.pdb
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\obj\Debug\ResourcesLib_MarkupCompile.cache
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\obj\Debug\ResourcesLib_MarkupCompile.lref
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\obj\Debug\Themes\Generic.baml
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\obj\Debug\ResourcesLib.g.resources
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\obj\Debug\ResourcesLib.Properties.Resources.resources
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\obj\Debug\ResourcesLib.csproj.GenerateResource.Cache
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\obj\Debug\ResourcesLib.dll
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\obj\Debug\ResourcesLib.pdb
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\bin\Debug\DatabaseControlLib.dll
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\bin\Debug\DatabaseControlLib.pdb
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\obj\Debug\ResourcesLib.csprojResolveAssemblyReference.cache

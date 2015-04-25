@@ -1,0 +1,70 @@
+﻿<Window x:Class="ManagementSystem.MainFrame"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="学生信息管理系统" Height="515" Width="821">
+    <Window.Resources>
+        <!-- 数据模板 -->
+        <DataTemplate x:Key="ListBoxItemTemplate">            
+            <StackPanel Margin="5">
+                        <!--
+                        <Image Source="{Binding Path=ProductImagePath,
+                                Converter={StaticResource ImageConverter}}" HorizontalAlignment="Stretch">
+                        </Image>
+                        -->
+                <TextBlock Text="{Binding Path=DetailName}" TextAlignment="Center" Foreground="Black"/>
+            </StackPanel>
+        </DataTemplate>
+
+        <!-- ListBoxItem样式 -->
+        <Style TargetType="{x:Type ListBoxItem}" x:Key="ListBoxItemStyle">
+            <Style.Resources>                
+            </Style.Resources>
+            <Style.Setters>
+                <Setter Property="Background" Value="white"></Setter>
+            </Style.Setters>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="SteelBlue"></Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        
+        <Style TargetType="{x:Type ListBox}" x:Key="ListBoxStyle">
+            <Style.Setters>
+                <Setter Property="ItemContainerStyle" Value="{StaticResource ListBoxItemStyle}"></Setter>
+                <Setter Property="ItemTemplate" Value="{StaticResource ListBoxItemTemplate}"></Setter>
+            </Style.Setters>
+        </Style>
+    </Window.Resources>
+    
+    <DockPanel LastChildFill="True">
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="系统" Click="MenuExit_Click">
+                <MenuItem Header="退出系统"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="帮助">
+                <MenuItem Header="关于" Click="MenuAbout_Click"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200" />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Border BorderThickness="1" BorderBrush="Silver" Grid.Column="0">
+                    <DockPanel  Name="ModulTab"  LastChildFill="True" />
+                </Border>
+            </Grid>
+
+            <Border Grid.Column="1" BorderThickness="1" BorderBrush="Black">
+                <DockPanel Name="ModulDetailWindow" LastChildFill="True" />
+            </Border>
+        </Grid>
+    </DockPanel>
+    
+</Window>

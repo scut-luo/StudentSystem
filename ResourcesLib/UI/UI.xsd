@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="UI" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="UI" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="UI" msprop:Generator_UserDSName="UI">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Modul" msprop:Generator_TableClassName="ModulDataTable" msprop:Generator_TableVarName="tableModul" msprop:Generator_TablePropName="Modul" msprop:Generator_RowDeletingName="ModulRowDeleting" msprop:Generator_RowChangingName="ModulRowChanging" msprop:Generator_RowEvHandlerName="ModulRowChangeEventHandler" msprop:Generator_RowDeletedName="ModulRowDeleted" msprop:Generator_UserTableName="Modul" msprop:Generator_RowChangedName="ModulRowChanged" msprop:Generator_RowEvArgName="ModulRowChangeEvent" msprop:Generator_RowClassName="ModulRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ModulNum" msprop:Generator_ColumnVarNameInTable="columnModulNum" msprop:Generator_ColumnPropNameInRow="ModulNum" msprop:Generator_ColumnPropNameInTable="ModulNumColumn" msprop:Generator_UserColumnName="ModulNum" type="xs:int" />
+              <xs:element name="ModulName" msprop:Generator_ColumnVarNameInTable="columnModulName" msprop:Generator_ColumnPropNameInRow="ModulName" msprop:Generator_ColumnPropNameInTable="ModulNameColumn" msprop:Generator_UserColumnName="ModulName" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ModulDetail" msprop:Generator_TableClassName="ModulDetailDataTable" msprop:Generator_TableVarName="tableModulDetail" msprop:Generator_TablePropName="ModulDetail" msprop:Generator_RowDeletingName="ModulDetailRowDeleting" msprop:Generator_RowChangingName="ModulDetailRowChanging" msprop:Generator_RowEvHandlerName="ModulDetailRowChangeEventHandler" msprop:Generator_RowDeletedName="ModulDetailRowDeleted" msprop:Generator_UserTableName="ModulDetail" msprop:Generator_RowChangedName="ModulDetailRowChanged" msprop:Generator_RowEvArgName="ModulDetailRowChangeEvent" msprop:Generator_RowClassName="ModulDetailRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DetailNum" msprop:Generator_ColumnVarNameInTable="columnDetailNum" msprop:Generator_ColumnPropNameInRow="DetailNum" msprop:Generator_ColumnPropNameInTable="DetailNumColumn" msprop:Generator_UserColumnName="DetailNum" type="xs:int" />
+              <xs:element name="ModulNum" msprop:Generator_ColumnVarNameInTable="columnModulNum" msprop:Generator_ColumnPropNameInRow="ModulNum" msprop:Generator_ColumnPropNameInTable="ModulNumColumn" msprop:Generator_UserColumnName="ModulNum" type="xs:int" />
+              <xs:element name="ShowImage" msprop:Generator_ColumnVarNameInTable="columnShowImage" msprop:Generator_ColumnPropNameInRow="ShowImage" msprop:Generator_ColumnPropNameInTable="ShowImageColumn" msprop:Generator_UserColumnName="ShowImage" type="xs:string" />
+              <xs:element name="DetailName" msprop:Generator_ColumnVarNameInTable="columnDetailName" msprop:Generator_ColumnPropNameInRow="DetailName" msprop:Generator_ColumnPropNameInTable="DetailNameColumn" msprop:Generator_UserColumnName="DetailName" type="xs:string" />
+              <xs:element name="UriPath" msprop:Generator_ColumnVarNameInTable="columnUriPath" msprop:Generator_ColumnPropNameInRow="UriPath" msprop:Generator_ColumnPropNameInTable="UriPathColumn" msprop:Generator_UserColumnName="UriPath" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="UserTypeModul" msprop:Generator_TableClassName="UserTypeModulDataTable" msprop:Generator_TableVarName="tableUserTypeModul" msprop:Generator_RowChangedName="UserTypeModulRowChanged" msprop:Generator_TablePropName="UserTypeModul" msprop:Generator_RowDeletingName="UserTypeModulRowDeleting" msprop:Generator_RowChangingName="UserTypeModulRowChanging" msprop:Generator_RowEvHandlerName="UserTypeModulRowChangeEventHandler" msprop:Generator_RowDeletedName="UserTypeModulRowDeleted" msprop:Generator_RowClassName="UserTypeModulRow" msprop:Generator_UserTableName="UserTypeModul" msprop:Generator_RowEvArgName="UserTypeModulRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UserType" msprop:Generator_ColumnVarNameInTable="columnUserType" msprop:Generator_ColumnPropNameInRow="UserType" msprop:Generator_ColumnPropNameInTable="UserTypeColumn" msprop:Generator_UserColumnName="UserType" type="xs:string" />
+              <xs:element name="ModulNum" msprop:Generator_ColumnVarNameInTable="columnModulNum" msprop:Generator_ColumnPropNameInRow="ModulNum" msprop:Generator_ColumnPropNameInTable="ModulNumColumn" msprop:Generator_UserColumnName="ModulNum" type="xs:int" />
+              <xs:element name="DetailNum" msprop:Generator_ColumnVarNameInTable="columnDetailNum" msprop:Generator_ColumnPropNameInRow="DetailNum" msprop:Generator_ColumnPropNameInTable="DetailNumColumn" msprop:Generator_UserColumnName="DetailNum" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="ModulKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Modul" />
+      <xs:field xpath="ModulNum" />
+    </xs:unique>
+    <xs:unique name="ModulDetailKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//ModulDetail" />
+      <xs:field xpath="DetailNum" />
+      <xs:field xpath="ModulNum" />
+    </xs:unique>
+    <xs:unique name="UserTypeModulKey2" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//UserTypeModul" />
+      <xs:field xpath="UserType" />
+      <xs:field xpath="ModulNum" />
+      <xs:field xpath="DetailNum" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

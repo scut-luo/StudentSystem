@@ -1,0 +1,101 @@
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\bin\Release\ManagementSystem.exe
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\bin\Release\ManagementSystem.pdb
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\bin\Release\DatabaseControlLib.dll
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\bin\Release\ResourcesLib.dll
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\bin\Release\DatabaseControlLib.pdb
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\bin\Release\ResourcesLib.pdb
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\ManagementSystem.csprojResolveAssemblyReference.cache
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\Login.baml
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\MainFrame.baml
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\SysManage\SystemUserAdd.baml
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\Login.g.cs
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\MainFrame.g.cs
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Student\StudentInfo.g.cs
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\SysManage\SystemUserManagement.g.cs
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\SysManage\SystemUserAdd.g.cs
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\App.g.cs
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\ManagementSystem_MarkupCompile.cache
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\ManagementSystem_MarkupCompile.lref
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Student\StudentInfo.baml
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\SysManage\SystemUserManagement.baml
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\ManagementSystem.g.resources
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\ManagementSystem.Properties.Resources.resources
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\ManagementSystem.csproj.GenerateResource.Cache
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\ManagementSystem.exe
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\ManagementSystem.pdb
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\About.baml
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\About.g.cs
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Academy\AcademyManagement.baml
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Academy\AcademyManagement.g.cs
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Academy\AcademyInfoUpdate.baml
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Course\CourseInfoManagement.baml
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Academy\AcademyInfoUpdate.g.cs
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Course\CourseInfoManagement.g.cs
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\CourseInfoUpdate.baml
+D:\大学\大三\C#课程设计\StudentSystem\ManagementSystem\obj\x86\Release\CourseInfoUpdate.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\bin\Release\ManagementSystem.exe
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\bin\Release\ManagementSystem.pdb
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\bin\Release\DatabaseControlLib.dll
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\bin\Release\ResourcesLib.dll
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\bin\Release\DatabaseControlLib.pdb
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\bin\Release\ResourcesLib.pdb
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\About.baml
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Course\CourseInfoUpdate.baml
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Academy\AcademyInfoUpdate.baml
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Course\CourseInfoManagement.baml
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Academy\AcademyManagement.baml
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Login.baml
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\MainFrame.baml
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\SelectedCourse\CourseListWindow.baml
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\SysManage\SystemUserAdd.baml
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\SelectedCourse\SelectedCourse.baml
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\TeachCourse\TCCourseListWindow.baml
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\TeachCourse\TeachCourseManagement.baml
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\TeachCourse\TeachCourseUpdate.baml
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Score\StudentScoreManagement.baml
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\TeachCourse\TeachCourseInfo.baml
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Score\StudentScoreInfo.baml
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\About.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Course\CourseInfoUpdate.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Academy\AcademyInfoUpdate.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Course\CourseInfoManagement.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Academy\AcademyManagement.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Login.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\MainFrame.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Course\CourseManage.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\SelectedCourse\CourseListWindow.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Student\StudentInfo.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\SysManage\SystemUserManagement.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\SysManage\SystemUserAdd.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\SelectedCourse\SelectedCourse.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\TeachCourse\TCCourseListWindow.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\TeachCourse\TeachCourseManagement.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\TeachCourse\TeachCourseUpdate.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Score\StudentScoreManagement.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\TeachCourse\TeachCourseInfo.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Teacher\TeacherInfoManagement.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Score\StudentScoreInfo.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Student\StudentInfoMangement.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Student\StudentInfoAdd.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Teacher\TeacherInfoAdd.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Teacher\TeacherInfo.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\App.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\ManagementSystem_MarkupCompile.cache
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\ManagementSystem_MarkupCompile.lref
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Course\CourseManage.baml
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Student\StudentInfo.baml
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\SysManage\SystemUserManagement.baml
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Teacher\TeacherInfoManagement.baml
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Student\StudentInfoMangement.baml
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Student\StudentInfoAdd.baml
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Teacher\TeacherInfoAdd.baml
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\Moduls\Teacher\TeacherInfo.baml
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\ManagementSystem.g.resources
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\ManagementSystem.Properties.Resources.resources
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\GenerateResource.read.1.tlog
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\GenerateResource.write.1.tlog
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\ManagementSystem.exe
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ManagementSystem\obj\x86\Release\ManagementSystem.pdb

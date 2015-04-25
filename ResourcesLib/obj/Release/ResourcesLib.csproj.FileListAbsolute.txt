@@ -1,0 +1,29 @@
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\bin\Release\ResourcesLib.dll
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\bin\Release\ResourcesLib.pdb
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\bin\Release\DatabaseControlLib.dll
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\bin\Release\DatabaseControlLib.pdb
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\obj\Release\ResourcesLib.csprojResolveAssemblyReference.cache
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\obj\Release\GeneratedInternalTypeHelper.g.cs
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\obj\Release\ResourcesLib_MarkupCompile.cache
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\obj\Release\ResourcesLib_MarkupCompile.lref
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\obj\Release\Themes\Generic.baml
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\obj\Release\ResourcesLib.g.resources
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\obj\Release\ResourcesLib.Properties.Resources.resources
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\obj\Release\ResourcesLib.csproj.GenerateResource.Cache
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\obj\Release\ResourcesLib.dll
+D:\大学\大三\C#课程设计\StudentSystem\ResourcesLib\obj\Release\ResourcesLib.pdb
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ResourcesLib\bin\Release\ResourcesLib.dll
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ResourcesLib\bin\Release\ResourcesLib.pdb
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ResourcesLib\bin\Release\DatabaseControlLib.dll
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ResourcesLib\bin\Release\DatabaseControlLib.pdb
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ResourcesLib\obj\Release\ResolveAssemblyReference.cache
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ResourcesLib\obj\Release\GeneratedInternalTypeHelper.g.cs
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ResourcesLib\obj\Release\ResourcesLib_MarkupCompile.cache
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ResourcesLib\obj\Release\ResourcesLib_MarkupCompile.lref
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ResourcesLib\obj\Release\Themes\Generic.baml
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ResourcesLib\obj\Release\ResourcesLib.g.resources
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ResourcesLib\obj\Release\ResourcesLib.Properties.Resources.resources
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ResourcesLib\obj\Release\GenerateResource.read.1.tlog
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ResourcesLib\obj\Release\GenerateResource.write.1.tlog
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ResourcesLib\obj\Release\ResourcesLib.dll
+E:\Data_Private\Computer Learning\Programs\Code\C#\StudentSystem\ResourcesLib\obj\Release\ResourcesLib.pdb

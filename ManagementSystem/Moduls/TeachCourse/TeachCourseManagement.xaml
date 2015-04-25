@@ -1,0 +1,97 @@
+﻿<UserControl x:Class="ManagementSystem.TeachCourseManagement"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="574">
+    <DockPanel LastChildFill="True">
+        <ToolBar Name="Tools" DockPanel.Dock="Top" Height="30">
+            <Button Click="UpdateTeachCourse_Click">
+                <Image Source="/ManagementSystem;component/Resources/Images/修改.BMP" HorizontalAlignment="Center" Width="52" Height="22" />
+            </Button>
+            <Button>
+                <Image Source="/ManagementSystem;component/Resources/Images/删除.BMP" HorizontalAlignment="Center" Width="52" Height="22" />
+            </Button>
+            <Separator />
+            <TextBlock VerticalAlignment="Center" Margin="2,0,0,0">选择学院：</TextBlock>
+            <ComboBox Width="80" Margin="5,0,0,0" Name="cb_AcademyFilter" DisplayMemberPath="Aname" SelectionChanged="AcademySelectionChanged"></ComboBox>
+            <TextBox Margin="5,0,0,0" Width="80" BorderThickness="1" BorderBrush="Gray"></TextBox>
+            <Button Margin="5,0,0,0">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/ManagementSystem;component/Resources/Images/搜索_24.ico" />
+                    <TextBlock>查询</TextBlock>
+                </StackPanel>
+            </Button>
+        </ToolBar>
+        
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="1.5*"/>
+            </Grid.ColumnDefinitions>
+            <GroupBox Header="授课教师表" Margin="8" Grid.Column="0">
+                <ListView Margin="5" Name="LV_Teacher" SelectionChanged="TeacherSelectionChanged">
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="{x:Type ListViewItem}">
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch"></Setter>
+                        </Style>
+                    </ListView.ItemContainerStyle>
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="教师工号" Width="80">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Width="Auto" TextAlignment="Center" Text="{Binding Tnum}" />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Header="教师名" Width="100">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Width="Auto" TextAlignment="Center" Text="{Binding Tname}" />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>                            
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </GroupBox>
+            
+            <GroupBox Header="任课信息列表" Margin="8" Grid.Column="1">
+                <ListView Margin="5" Name="LV_TeachCourse">
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="{x:Type ListViewItem}">
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch"></Setter>
+                        </Style>
+                    </ListView.ItemContainerStyle>
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="课程号" Width="80">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Width="Auto" TextAlignment="Center" Text="{Binding Cnum}" />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Header="课程名称" Width="100">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Width="Auto" TextAlignment="Center" Text="{Binding Cname}" />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Header="授课地点" Width="110">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Width="Auto" TextAlignment="Center" Text="{Binding TCplace}" />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </GroupBox>
+        </Grid>
+    </DockPanel>
+</UserControl>

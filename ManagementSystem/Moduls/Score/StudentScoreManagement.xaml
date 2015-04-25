@@ -1,0 +1,64 @@
+﻿<UserControl x:Class="ManagementSystem.StudentScoreManagement"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="314">
+    <DockPanel LastChildFill="True">
+        <ToolBar Name="Tools" DockPanel.Dock="Top" Height="32">
+            <Button Click="Save_Click">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/ManagementSystem;component/Resources/Images/保存.ico" />
+                    <TextBlock>保存</TextBlock>
+                </StackPanel>
+            </Button>
+            <Separator />
+            <TextBlock VerticalAlignment="Center" Margin="10,0,0,0">任课选择：</TextBlock>
+            <ComboBox Margin="2,0,0,0" Width="90" Name="cb_TeachCourseFilter" DisplayMemberPath="Cname" SelectionChanged="TeachCourseSelectionChanged"></ComboBox>
+        </ToolBar>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <GroupBox Header="学生成绩表" Margin="8">
+                <ListView Margin="5" Name="LV_SelectedCourse">
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="{x:Type ListViewItem}">
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch"></Setter>
+                        </Style>
+                    </ListView.ItemContainerStyle>
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="名字" Width="80">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Width="Auto" TextAlignment="Center" Text="{Binding Sname}" />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Header="成绩" Width="100">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Width="Auto" TextAlignment="Center" Text="{Binding Score}" />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>                                           
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </GroupBox>
+            <StackPanel Grid.Row="1" Margin="5" Orientation="Horizontal" DataContext="{Binding ElementName=LV_SelectedCourse,Path=SelectedItem}">
+                <TextBlock>学生名字：</TextBlock>
+                <TextBox Width="80" Margin="2,0,0,0" IsReadOnly="True" Text="{Binding Path=Sname}"></TextBox>
+                <TextBlock Margin="15,0,0,0">成绩：</TextBlock>
+                <TextBox Width="50" Text="{Binding Path=Score}" Name="tb_Score"></TextBox>
+            </StackPanel>
+            <StackPanel Grid.Row="2" Orientation="Horizontal">
+                <Button Margin="5" Click="UpdateOneScore_Click">更新成绩</Button>
+            </StackPanel>
+        </Grid>
+    </DockPanel>
+</UserControl>
